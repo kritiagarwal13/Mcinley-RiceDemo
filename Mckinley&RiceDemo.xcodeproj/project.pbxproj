@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A358B966C3C543D66C33741F /* Pods_Mckinley_RiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FDE390C0282B8D75FDCD9B /* Pods_Mckinley_RiceDemo.framework */; };
 		D636EF1A23C1C06400FE6962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636EF1923C1C06400FE6962 /* AppDelegate.swift */; };
 		D636EF1C23C1C06400FE6962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636EF1B23C1C06400FE6962 /* SceneDelegate.swift */; };
 		D636EF1E23C1C06400FE6962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636EF1D23C1C06400FE6962 /* ViewController.swift */; };
 		D636EF2123C1C06400FE6962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D636EF1F23C1C06400FE6962 /* Main.storyboard */; };
 		D636EF2323C1C06500FE6962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D636EF2223C1C06500FE6962 /* Assets.xcassets */; };
 		D636EF2623C1C06500FE6962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D636EF2423C1C06500FE6962 /* LaunchScreen.storyboard */; };
+		D636EF3623C1C5CA00FE6962 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636EF3523C1C5CA00FE6962 /* Constants.swift */; };
+		D669868423C1CD47003FD95B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669868323C1CD47003FD95B /* User.swift */; };
+		D669868623C1CE0D003FD95B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669868523C1CE0D003FD95B /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A26A3010200411C4B43A583 /* Pods-Mckinley&RiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mckinley&RiceDemo.debug.xcconfig"; path = "Target Support Files/Pods-Mckinley&RiceDemo/Pods-Mckinley&RiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		38FDE390C0282B8D75FDCD9B /* Pods_Mckinley_RiceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mckinley_RiceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C424AA3668DBAD2F7C820684 /* Pods-Mckinley&RiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mckinley&RiceDemo.release.xcconfig"; path = "Target Support Files/Pods-Mckinley&RiceDemo/Pods-Mckinley&RiceDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D636EF1623C1C06400FE6962 /* Mckinley&RiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mckinley&RiceDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D636EF1923C1C06400FE6962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D636EF1B23C1C06400FE6962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		D636EF2223C1C06500FE6962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D636EF2523C1C06500FE6962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D636EF2723C1C06500FE6962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D636EF3523C1C5CA00FE6962 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D669868323C1CD47003FD95B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D669868523C1CE0D003FD95B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A358B966C3C543D66C33741F /* Pods_Mckinley_RiceDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6C19DC8C562E42CB6E75265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A26A3010200411C4B43A583 /* Pods-Mckinley&RiceDemo.debug.xcconfig */,
+				C424AA3668DBAD2F7C820684 /* Pods-Mckinley&RiceDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D636EF0D23C1C06400FE6962 = {
 			isa = PBXGroup;
 			children = (
 				D636EF1823C1C06400FE6962 /* Mckinley&RiceDemo */,
 				D636EF1723C1C06400FE6962 /* Products */,
+				B6C19DC8C562E42CB6E75265 /* Pods */,
+				F5E2805CF5340AFA59DF3668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,58 @@
 		D636EF1823C1C06400FE6962 /* Mckinley&RiceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D636EF1923C1C06400FE6962 /* AppDelegate.swift */,
-				D636EF1B23C1C06400FE6962 /* SceneDelegate.swift */,
-				D636EF1D23C1C06400FE6962 /* ViewController.swift */,
-				D636EF1F23C1C06400FE6962 /* Main.storyboard */,
+				D636EF3223C1C44E00FE6962 /* Supporting files */,
+				D636EF3123C1C43900FE6962 /* Model */,
+				D636EF3423C1C47D00FE6962 /* Controller */,
+				D636EF3323C1C46800FE6962 /* View */,
 				D636EF2223C1C06500FE6962 /* Assets.xcassets */,
 				D636EF2423C1C06500FE6962 /* LaunchScreen.storyboard */,
 				D636EF2723C1C06500FE6962 /* Info.plist */,
 			);
 			path = "Mckinley&RiceDemo";
+			sourceTree = "<group>";
+		};
+		D636EF3123C1C43900FE6962 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D669868323C1CD47003FD95B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D636EF3223C1C44E00FE6962 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D636EF1B23C1C06400FE6962 /* SceneDelegate.swift */,
+				D636EF3523C1C5CA00FE6962 /* Constants.swift */,
+				D636EF1923C1C06400FE6962 /* AppDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		D636EF3323C1C46800FE6962 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D636EF1F23C1C06400FE6962 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D636EF3423C1C47D00FE6962 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D636EF1D23C1C06400FE6962 /* ViewController.swift */,
+				D669868523C1CE0D003FD95B /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5E2805CF5340AFA59DF3668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38FDE390C0282B8D75FDCD9B /* Pods_Mckinley_RiceDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D636EF2A23C1C06500FE6962 /* Build configuration list for PBXNativeTarget "Mckinley&RiceDemo" */;
 			buildPhases = (
+				F96E18094B3ED323AEFF1335 /* [CP] Check Pods Manifest.lock */,
 				D636EF1223C1C06400FE6962 /* Sources */,
 				D636EF1323C1C06400FE6962 /* Frameworks */,
 				D636EF1423C1C06400FE6962 /* Resources */,
+				97E4CE8C4BEC3EF66DD59F23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +200,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97E4CE8C4BEC3EF66DD59F23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mckinley&RiceDemo/Pods-Mckinley&RiceDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mckinley&RiceDemo/Pods-Mckinley&RiceDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mckinley&RiceDemo/Pods-Mckinley&RiceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96E18094B3ED323AEFF1335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mckinley&RiceDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D636EF1223C1C06400FE6962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D636EF1E23C1C06400FE6962 /* ViewController.swift in Sources */,
+				D669868623C1CE0D003FD95B /* WebViewController.swift in Sources */,
 				D636EF1A23C1C06400FE6962 /* AppDelegate.swift in Sources */,
+				D669868423C1CD47003FD95B /* User.swift in Sources */,
 				D636EF1C23C1C06400FE6962 /* SceneDelegate.swift in Sources */,
+				D636EF3623C1C5CA00FE6962 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +394,7 @@
 		};
 		D636EF2B23C1C06500FE6962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A26A3010200411C4B43A583 /* Pods-Mckinley&RiceDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +413,7 @@
 		};
 		D636EF2C23C1C06500FE6962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C424AA3668DBAD2F7C820684 /* Pods-Mckinley&RiceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
