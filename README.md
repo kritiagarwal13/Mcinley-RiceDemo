@@ -1,7 +1,6 @@
 # Mcinley-RiceDemo
 
 This demo consists of login and web view code for the online test of Mckinley & Rice.
-
 Steps to install and run code:
 
   1. Download/Clone the project
